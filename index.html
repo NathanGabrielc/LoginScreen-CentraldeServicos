@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Central de Serviços</title>
+</head>
+
+<body>
+    <div class="box">
+
+
+        <div class="form-box">
+            <div class="logo">
+                <img src="images/HCTCO-2021.png" alt="LogoHCTCO">
+                <h2>Central de Serviços</h2>
+            </div>
+            <form action="#" autocomplete="off">
+                <div class="input-group um">
+                    <label for="user">Usuário:</label>
+                    <i data-feather="user" id="user"></i>
+                    <input type="text" id="username" placeholder="Digite o seu Usuário" required>
+                </div>
+
+                <div class="input-group dois">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="password" placeholder="Digite sua senha" required>
+                    <i data-feather="lock" id="lock"></i>
+                    <i data-feather="eye-off" id="eye-off" class="eye-off"></i>
+                    <i data-feather="eye" id="eye" class="eye"></i>
+                </div>
+                <div class="input-group tres">
+                    <button>Login</button>
+                </div>
+            </form>
+        </div>
+        <div class="img-box">
+            <img src="images/work.jpg" alt="ImageWork">
+        </div>
+    </div>
+
+    <script>
+        feather.replace()
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
